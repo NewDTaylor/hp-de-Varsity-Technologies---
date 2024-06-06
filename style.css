@@ -1,0 +1,466 @@
+/*-------------------------------------------*\
+  Font Family
+\*-------------------------------------------*/
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+/*-------------------------------------------*\
+    Main Variables
+\*-------------------------------------------*/
+[class*="segment"] {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+[class~="space-huge"][class*="segment"] {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+[class~="space-large"][class*="segment"] {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+[class~="space-medium"][class*="segment"] {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+[class~="space-small"][class*="segment"] {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.container {
+  max-width: 1170px !important ;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+h1 {
+  font-size: 44px !important;
+}
+h2 {
+  font-size: 40px !important;
+}
+h3 {
+  font-size: 26px !important;
+}
+h4 {
+  font-size: 20px !important;
+}
+h5 {
+  font-size: 18px !important;
+}
+h6 {
+  font-size: 16px !important;
+}
+h1,
+h2,
+h3 {
+  margin-top: 20px !important;
+  margin-bottom: 10px !important;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: 1.4em !important;
+  margin-bottom: 20px !important;
+}
+
+p {
+  line-height: 1.9em;
+}
+
+/*-------------------------------------------*\
+   [Color] Main Variables
+ \*-------------------------------------------*/
+.accent {
+  color: #eb9e29;
+}
+.accent2 {
+  color: #00215f;
+}
+.accent3 {
+  color: #333333;
+}
+.accent4 {
+  color: #e1463e !important;
+}
+.accent5 {
+  color: #666666;
+}
+.accent6 {
+  color: #ffffff;
+}
+.segment1 h1,
+.segment1 h2,
+.segment1 h3,
+.segment1 h4,
+.segment1 h5,
+.segment1 h6,
+.segment2 h1,
+.segment2 h2,
+.segment2 h3,
+.segment2 h4,
+.segment2 h5,
+.segment2 h6 {
+  color: #1c1c1c;
+}
+.segment1 {
+  color: #676767;
+  background-color: #ffffff;
+}
+
+.segment2 {
+  color: #676767;
+  background-color: #f4f5f7;
+}
+.segment3 {
+  color: #ffffff;
+  background-color: #e1463e;
+}
+
+.segment4 {
+  color: #ffffff;
+  background-color: #4392ad;
+}
+.segment5 {
+  color: #ffffff;
+  background-color: #00215f;
+}
+.font-white {
+  color: #fff;
+}
+.font-red {
+  color: #f20606;
+}
+.well {
+  background: #e9ecef;
+}
+/*-------------------------------------------*\
+   [Button] Main Variables
+\*-------------------------------------------*/
+
+.btn.btn-primary {
+  border-color: #eb9e29 !important;
+  background-color: #eb9e29 !important;
+}
+
+.btn.btn-default {
+  border-color: #4392ad !important;
+  background-color: #4392ad !important;
+}
+
+.btn.btn-warning {
+  border-color: #e1463e !important;
+  background-color: #e1463e !important;
+}
+
+.btn.btn-primary,
+.btn.btn-default,
+.btn.btn-warning {
+  color: #ffffff;
+  color: #ffffff;
+  text-shadow: none;
+  color: #fff;
+  border-radius: 60px 60px 60px 60px;
+  font-weight: 700;
+  padding: 15px 40px 15px 40px;
+  transition: 0.3s !important;
+  margin-bottom: 10px;
+}
+
+.btn.btn-primary:hover,
+.btn.btn-default:hover,
+.btn.btn-warning:hover {
+  color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  background: #f7a223 !important;
+}
+.btn.btn-default:hover {
+  background: #4097b4 !important;
+}
+.btn.btn-warning:hover {
+  background: #d83e36 !important;
+}
+/*-------------------------------------------*\
+    [Position] Main Variables
+\*-------------------------------------------*/
+
+.text-center {
+  text-align: center;
+}
+
+.margin-top-20 {
+  margin-top: 20px;
+}
+
+.margin-top-40 {
+  margin-top: 40px;
+}
+
+.margin-top-60 {
+  margin-top: 60px;
+}
+.margin-bottom-20 {
+  margin-bottom: 20px;
+}
+.margin-bottom-40 {
+  margin-bottom: 40px;
+}
+.margin-bottom-60 {
+  margin-bottom: 60px;
+}
+
+/*-------------------------------------------*\
+    [Useful Class] Main Variables
+\*-------------------------------------------*/
+.flex-box {
+  display: flex;
+}
+.visible-lg {
+  display: none;
+}
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+/*-------------------------------------------*\
+   Header  Session 
+\*-------------------------------------------*/
+
+.main-header > .container > .row .main-header-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+nav.cutom-main-nav ul li {
+  padding: 9px;
+}
+.main-header {
+  border-bottom: 7px solid #b61231;
+}
+.main-header .flex-box {
+  gap: 10px;
+}
+.main-header .btn {
+  padding: 15px 20px 15px 20px;
+}
+
+/*-------------------------------------------*\
+   Body  Session 
+\*-------------------------------------------*/
+
+.hp-seg1 {
+  background-image: url(Images/Banner/bg-banner-Varsity-Bay-Area-IT.jpg);
+}
+.hp-seg8 .left-box-testimonail {
+  background-image: url(Images/SEG-seven/Sideimg-Testimonials.webp);
+  min-height: 430px;
+}
+.hp-seg1,
+.left-box-testimonail {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+.hp-seg2 .font-15 {
+  font-size: 15px;
+}
+
+.hp-seg8 .testimonail-gray-box {
+  background: #f3f1f1;
+}
+
+.hp-seg7 img,
+.hp-seg10 img {
+  margin-bottom: 10px;
+}
+.hp-seg10 .font-12 {
+  font-size: 12px;
+}
+.hp-seg10 .font-14 {
+  font-size: 14px;
+}
+
+.hp-seg10 .well {
+  padding: 20px;
+  text-align: center;
+  border-radius: 5px;
+  min-height: 365px;
+  margin-bottom: 10px;
+}
+
+.hp-seg10 img {
+  width: 100%;
+  max-width: 130px;
+}
+.hp-seg10 .h1 {
+  color: #e1463e;
+}
+
+.hp-seg10 .odometer-inside:after {
+  content: "%";
+  color: #e1463e;
+  padding-left: 5px;
+  font-weight: 600;
+}
+
+/*-------------------------------------------*\
+  Tab 
+\*-------------------------------------------*/
+
+* {
+  box-sizing: border-box;
+}
+
+.hp-seg2-slide.well.slick-initialized.slick-slider.slick-dotted {
+  background: transparent;
+}
+
+.hp-seg3 li.active h3 {
+  color: #e1463e;
+}
+
+.hp-seg3 ul.accordion-list {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  margin: 0;
+  list-style: none;
+  background-color: #f4f5f7;
+
+  li {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    padding: 20px;
+    margin: 0 auto 15px auto;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &.active {
+      h3 {
+        &:after {
+          transform: rotate(45deg);
+        }
+      }
+    }
+
+    h3 {
+      font-weight: 700;
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      padding: 0 0 0 0;
+      margin: 0;
+      font-size: 15px;
+      letter-spacing: 0.01em;
+      cursor: pointer;
+
+      &:after {
+        content: "\f0d7";
+        font-family: "material-design-iconic-font";
+        position: absolute;
+        right: 0;
+        top: 0;
+        color: #fcc110;
+        transition: all 0.3s ease-in-out;
+        font-size: 18px;
+      }
+    }
+
+    div.answer {
+      position: relative;
+      display: block;
+      width: 100%;
+      height: auto;
+      margin: 0;
+      padding: 0;
+      cursor: pointer;
+
+      p {
+        position: relative;
+        display: block;
+        font-weight: 300;
+        padding: 10px 0 0 0;
+        cursor: pointer;
+        line-height: 150%;
+        margin: 0 0 15px 0;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+/*-------------------------------------------*\
+  Footer
+\*-------------------------------------------*/
+
+.footer-social-icon img {
+  background: #e1463e;
+  margin: 5px;
+  border-radius: 30px;
+  height: 40px;
+  width: 40px;
+  color: #000;
+  padding: 10px;
+}
+ul.fa-ul {
+  margin-left: 0 !important;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .hp-seg10 .well {
+    min-height: 380px;
+  }
+  #header ul.nav {
+    display: none;
+  }
+}
+@media (max-width: 991px) {
+  #header ul.nav {
+    display: none;
+  }
+  .hp-seg3 img,
+  .hp-seg5 img,
+  .hp-seg11 img {
+    width: 100%;
+    max-width: 440px;
+  }
+  .sm-text-center {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .xs-text-center {
+    text-align: center;
+  }
+  h2 {
+    font-size: 25px !important;
+  }
+  .footer-social-icon {
+    justify-content: center;
+  }
+}
